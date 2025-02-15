@@ -3,5 +3,8 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12" />
   </component>
+  <component name="ProjectResources">
+    <resource url="&quot;http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd&quot;" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12" project-jdk-type="Python SDK" />
 </project>
