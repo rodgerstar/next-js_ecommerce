@@ -2,7 +2,7 @@
 
 import {ChevronUp} from "lucide-react";
 import {Button} from "@/components/ui/button";
-import {Link} from "lucide-react";
+import Link from 'next/link';
 import {APP_NAME} from "@/lib/constants";
 
 
@@ -20,11 +20,11 @@ export default function Footer() {
             </div>
             <div className='p-4'>
                 <div className='flex justify-center  gap-3 text-sm'>
-                    <Link href='/page/conditions-of-use'>
+                    <Link href='/(home)/page.tsx/conditions-of-use'>
                         Conditions of Use
                     </Link>
-                    <Link href='/page/privacy-policy'>Footer.Privacy Notice</Link>
-                    <Link href='/page/help'>Help</Link>
+                    <Link href='/(home)/page.tsx/privacy-policy'>Privacy Notice</Link>
+                    <Link href='/(home)/page.tsx/help'>Help</Link>
                 </div>
                 <div className='flex justify-center text-sm'>
                     <p> © 2025 copyright, {APP_NAME}, Inc || powered by Nexel</p>
